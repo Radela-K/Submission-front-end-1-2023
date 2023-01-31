@@ -1,0 +1,185 @@
+@import "general.css";
+/* Using a string */
+
+main {
+    background-color: var(--second-color);
+    margin-top: 70px;
+}
+
+main #content {
+    /* border: 1px solid darkblue; */
+    flex-basis: 90%;
+
+    /* flex as parent */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    font-family: "Vanilla Caramel", sans-serif;
+
+    color: var(--accent-color2);
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+main #content h2 {
+    font-family: "Vanilla Caramel", sans-serif;
+    letter-spacing: 2px;
+}
+
+main #content .cardContent {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 400px;
+
+    /* flex as parent */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    background-color: var(--primary-color);
+}
+
+main #content .cardContent:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+main #content .cardContent h3 {
+    letter-spacing: 2px;
+    font-size: bold;
+}
+
+main #content .cardContent i {
+    font-size: 60px;
+    color: var(--accent-color1);
+    margin-bottom: 20px;
+}
+
+main #content .cardContent img {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+main #content article {
+    flex-grow: 1;
+}
+
+main #content .buttonContent {
+    padding: 5px;
+    margin-top: 10px;
+
+    /* flex as parent */
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+main #content .buttonContent .buttonAction {
+    /* Green */
+    border: none;
+    color: var(--second-color);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Vanilla Caramel", sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+main #content .buttonContent .buttonPengantar {
+    background-color: var(--accent-color2);
+    color: var(--second-color);
+    border: 2px solid var(--accent-color2);
+}
+
+main #content .buttonContent .buttonPengantar:hover {
+    background-color: var(--accent-color1);
+    color: var(--accent-color2);
+    border: 2px solid var(--accent-color1);
+}
+
+main #content .buttonContent .buttonHtml {
+    background-color: var(--accent-color2);
+    color: var(--second-color);
+    border: 2px solid var(--accent-color2);
+}
+
+main #content .buttonContent .buttonHtml:hover {
+    background-color: var(--accent-color1);
+    color: var(--accent-color2);
+    border: 2px solid var(--accent-color1);
+}
+
+main #content .buttonContent .buttonCss {
+    background-color: var(--accent-color2);
+    color: var(--second-color);
+    border: 2px solid var(--accent-color2);
+}
+
+main #content .buttonContent .buttonCss:hover {
+    background-color: var(--accent-color1);
+    color: var(--accent-color2);
+    border: 2px solid var(--accent-color1);
+}
+
+main #content .buttonContent .buttonJs {
+    background-color: var(--accent-color2);
+    color: var(--second-color);
+    border: 2px solid var(--accent-color2);
+}
+
+main #content .buttonContent .buttonJs:hover {
+    background-color: var(--accent-color1);
+    color: var(--accent-color2);
+    border: 2px solid var(--accent-color1);
+}
+
+main #content .buttonContent .activeAction {
+    background-color: var(--accent-color1);
+    color: var(--accent-color2);
+    border: 2px solid var(--accent-color1);
+}
+
+main aside {
+    /* border: 1px solid purple; */
+    flex-grow: 1;
+    text-align: center;
+    font-family: "Vanilla Caramel", sans-serif;
+    color: var(--accent-color2);
+    letter-spacing: 2px;
+    align-self: center;
+}
+
+main aside .idProfile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    width: 35%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    background-color: var(--primary-color);
+}
+
+main aside .idProfile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+main aside .idProfile img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+main aside .idKeterangan {
+    padding: 2px 16px;
+}

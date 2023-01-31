@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Web</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./asset/style/general.css">
+    <link rel="stylesheet" href="./asset/style/style.css">
+    <link rel="stylesheet" href="./asset/style/main.css">
+    <link rel="stylesheet" href="./asset/style/quotes.css">
+    <link rel="stylesheet" href="./asset/style/responsive.css">
+</head>
+
+<body id="thisSite">
+    <header>
+        <div class="containTop">
+            <h1>Tugas WEB</h1>
+            <i class="material-icons">computer</i>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="linkNav active" href="#hrefHero">Welcome</a></li>
+                <li><a class="linkNav" href="#hrefContent">Content</a></li>
+                <li><a class="linkNav" href="#hrefQuotes">Quotes</a></li>
+                <li><a class="linkNav" href="#hrefContent">About</a></li>
+            </ul>
+        </nav>
+        <div id="menu"></div>
+    </header>
+    <span id="hrefHero"></span>
+    <div id="heroSection">
+        <div class="heroText">
+            <h2>Selamat datang di Tugas Web </h2>
+            <a href="#hrefContent"><button class="buttonHero">Mulai</button></a>
+            <div class="ornament ornament1"></div>
+            <div class="ornament ornament2"></div>
+            <div class="ornament ornament3"></div>
+        </div>
+        <div class="heroImage">
+            <img src="./asset/image/hero1.svg" alt="hero1">
+        </div>
+    </div>
+    <span id="hrefContent"></span>
+    <main>
+        <div id="content">
+            <h2>Content</h2>
+            <div class="cardContent">
+                <h3>Pengantar</h3>
+                <img src="./asset/image/hero2.svg" alt="html css js">
+                <article>Sebagian besar Halaman web yang terdapat di internet tersusun atas 3 bahasa. Tiga bahasa ini
+                    adalah HTML, CSS dan Javascript. </article>
+            </div>
+            <div class="buttonContent">
+                <button class="buttonAction buttonPengantar activeAction">Pengantar</button>
+                <button class="buttonAction buttonHtml">HTML</button>
+                <button class="buttonAction buttonCss">CSS</button>
+                <button class="buttonAction buttonJs">JS</button>
+            </div>
+        </div>
+        <aside>
+            <h2>Identitas diri</h2>
+            <div class="idProfile">
+                <img src="https://drive.google.com/uc?export=view&id=1GccqYa3Qosm8SnuADg5Jx3Myg94vQdTl"
+                    alt="foto profil">
+                <div class="idKeterangan">
+                    <h4><b>Dibuat oleh :</b></h4>
+                    <p>Radela K.</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <span id="hrefQuotes"></span>
+    <div id="quotes">
+        <h2>Quotes</h2>
+        <div class="slider">
+            <div class="slide">
+                <q>Pendidikan bukan cuma pergi ke sekolah dan mendapatkan gelar. Tapi, juga soal memperluas pengetahuan
+                    dan menyerap ilmu kehidupan.</q>
+                <br><br>
+                <p class="auth">Shakuntala Devi</p>
+            </div>
+            <div class="slide">
+                <q>Hiduplah seolah engkau mati besok. Belajarlah seolah engkau hidup selamanya.</q>
+                <br><br>
+                <p class="auth">Mahatma Gandhi</p>
+            </div>
+            <div class="slide">
+                <q>Pendidikan adalah senjata paling mematikan di dunia, karena dengan pendidikan, Anda dapat mengubah
+                    dunia.</q>
+                <br><br>
+                <p class="auth">Nelson Mandela</p>
+            </div>
+            <div class="slide">
+                <q>Orang bijak belajar ketika mereka bisa. Orang bodoh belajar ketika mereka terpaksa.</q>
+                <br><br>
+                <p class="auth">Arthur Wellesley</p>
+            </div>
+            <div class="slide">
+                <q>Fokuslah menjadi produktif, bukan sekadar sibuk saja.</q>
+                <br><br>
+                <p class="auth">Tim Ferris</p>
+            </div>
+            <a class="previous">❮</a>
+            <a class="next">❯</a>
+        </div>
+
+        <div class="dots">
+            <span class="dotSign"></span>
+            <span class="dotSign"></span>
+            <span class="dotSign"></span>
+            <span class="dotSign"></span>
+            <span class="dotSign"></span>
+        </div>
+    </div>
+    <footer>
+        <h4>Tugas WEB</h4>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github"></i>
+        <hr>
+        <div class="textFooter">
+            <div class="descFooter">
+                <h5>Description</h5>
+                <p>Website ini dibuat untuk memenuhi tugas submission Dicoding</p>
+            </div>
+            <div class="pathFooter">
+                <h5>Learning Path</h5>
+                <p>Front-End Developer</p>
+            </div>
+            <div class="techFooter">
+                <h5>Technology</h5>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyFooter">
+            <span>&copy; 2023 Copyright: Radela K.</span>
+        </div>
+    </footer>
+
+    <script src="./asset/script/script.js"></script>
+    <script src="./asset/script/quotes.js"></script>
+    <script src="./asset/script/content.js"></script>
+</body>
+
+</html>

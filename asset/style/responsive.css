@@ -1,0 +1,51 @@
+@import "general.css";
+/* Using a string */
+
+/* For tablets: */
+@media only screen and (max-width: 768px) {
+    header nav ul {
+        justify-content: flex-end;
+    }
+}
+
+/* For mobile phone: */
+@media only screen and (max-width: 576px) {
+    header .containTop .material-icons {
+        margin-right: 5vw;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+
+    #heroSection {
+        min-height: 65vh;
+        margin-top: 150px;
+    }
+
+    #heroSection .heroText {
+        margin-top: 30px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    header nav ul li:last-child {
+        margin-right: 0;
+    }
+
+    #heroSection {
+        flex-direction: column-reverse;
+    }
+
+    #heroSection .heroText {
+        padding: 5px;
+    }
+
+    #quotes .slider {
+        height: 350px;
+        word-wrap: break-word;
+    }
+
+}
